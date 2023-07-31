@@ -1,0 +1,48 @@
+.cart {
+	margin: 1vw;
+
+	.empty_cart,
+	.order {
+		margin-top: 10vh;
+		font-size: 2em;
+		text-align: center;
+	}
+	
+	.totals {
+		.total_price {
+			font-size: 1.4em;
+		}
+		.pay {
+			margin: 1vw 0;
+			button {
+				font-size: 1.3em;
+				padding: 0.5em 2em; 	
+				outline: none;
+				border: none;
+				border-radius: 0.5em;
+				cursor: pointer;
+				color: white;
+				background: black;
+
+				&:hover {
+					background: #d5d5d5;
+					color: black;
+				}
+			}
+		}
+		.clear_cart {
+			button {
+				font-size: 1.2em;
+				padding: 1em 0;
+				border: none;
+				outline: none;
+				background: none;
+				cursor: pointer;
+
+				&:hover {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+}

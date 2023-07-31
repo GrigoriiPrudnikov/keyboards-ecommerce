@@ -1,0 +1,30 @@
+.product_item {
+	margin: 1vw;
+	.product_image {
+		img {
+			max-width: 100%;
+			border-radius: 1em;
+		}
+	}
+	.product_info {
+		margin-top: .5em;
+	}
+	.addToFavorites {
+		display: none;
+		z-index: 2;
+		position: absolute;
+		margin: 1rem 0 0 1rem;
+		transition: all .2s ease-in-out;
+
+		button {
+			height: 2rem;
+			width: 2rem;
+			border-radius: 50%;
+			border: none;
+			outline: none;
+		}
+	}
+	&:hover .addToFavorites {
+		display: block;
+	}
+}

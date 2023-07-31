@@ -1,0 +1,17 @@
+.product_colors {
+			margin-top: 2em;
+
+			button {
+				height: 3em;
+				width: 3em;
+				margin-right: 1em;
+				outline: none;
+				border: none;
+				border-radius: 50%;
+				cursor: pointer;
+			}
+			.active {
+				border: 3px solid #fff;
+				outline: 3px solid #03c9a0;
+			}
+		}

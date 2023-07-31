@@ -1,0 +1,33 @@
+.favorites_product {
+	margin: 1vw;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+
+	.favorites_product_image {
+		img {
+			border-radius: 1em;
+			max-width: 100%;
+		}
+	}
+	.favorites_product_info {
+		margin-left: 1vw;
+
+		.addToFavorites {
+			transition: all 0.2s ease-in-out;
+
+			button {
+				height: 2rem;
+				width: 2rem;
+				border-radius: 50%;
+				border: none;
+				outline: none;
+			}
+		}
+	}
+}
+
+.empty_favorites {
+	margin-top: 10vh;
+	font-size: 2em;
+	text-align: center;
+}
